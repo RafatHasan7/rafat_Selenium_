@@ -6,7 +6,7 @@ public class Main {
 
 	public static void main(String[] args) {
 	
-	System.setProperty("webDriver.chrome.driver", "C:\\Users\\RAFAT\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");	
+	System.setProperty("webDriver.chrome.driver", "src/main/resources/chromedriver.exe");
 		
 
 	WebDriver driver = new ChromeDriver();
